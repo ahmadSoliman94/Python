@@ -1,2 +1,0 @@
-in CMD:
-pyinstaller programmename.py 

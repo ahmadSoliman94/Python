@@ -1,6 +1,6 @@
 from selenium import webdriver
 import time
-
+import sys
 
 edge_driver = webdriver.Edge(executable_path='C:/Users/ahmad/Desktop/msedgedriver.exe')
 edge_driver.get('https://moodle.uni-luebeck.de/login/index.php')
@@ -21,3 +21,5 @@ time.sleep(1)
 
 login = edge_driver.find_element_by_xpath(".//*[@id='loginbtn']")
 login.click()
+
+sys.exit()
