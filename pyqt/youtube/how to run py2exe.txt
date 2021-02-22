@@ -1,0 +1,4 @@
+Model CX_Freeze --> المكتبة مستخدمة لتحويل السكريبت الى تطبيق
+
+
+python py2exe build
